@@ -36,6 +36,11 @@ $tree -L 1`
 └──  table-snapshot-init  
 
 # future work
-- 例えば、`$snapshot.sh 1.00 `で特定のversionとして保存し呼び出せるようにする
+- `$snapshot.sh 1.00 `で特定のversionとして保存
+    - version間の差分を取りたい
 
 - オプションでフォルダーをtarで固める
+
+### DBマイグレーション
+- flyway
+- Liquibase
